@@ -31,8 +31,6 @@ if not CHAT_ID:
 # -----------------------
 def format_message(summaries: list[dict[str, Any]]) -> str:
     parts = []
-    parts.append("🧠 *Top AI Papers (Last 24h)*\n")
-
     for i, s in enumerate(summaries, 1):
         innovations = (
             "\n- ".join(s["key_innovations"])
