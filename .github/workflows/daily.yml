@@ -2,7 +2,7 @@ name: Daily AI Papers
 
 on:
   schedule:
-    - cron: "30 1 * * *"   # 01:30 UTC = 07:00 IST
+    - cron: "45 6 * * *"  # 01:30 UTC = 07:00 IST
   workflow_dispatch:       # allows manual run
 
 jobs:
